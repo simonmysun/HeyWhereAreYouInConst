@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<string.h>
+#include<stdlib.h>
 
 #define MOD 4009
 
@@ -124,7 +125,7 @@ void check(void)
 			if(k>=32)
 			{
 				printf("Too many. \n");
-				exit(0);
+                                exit(0);
 			}
 		}
 	}
